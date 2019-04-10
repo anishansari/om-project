@@ -1,0 +1,136 @@
+body{
+	padding: 0;
+	margin:auto 0;
+
+	/*display: flex;
+	display: grid;*/
+}
+.logo1{
+	margin:auto;
+
+	justify-content: center;
+}
+.logo
+{
+	width: 40%;
+	height: 130px;
+	float: left;
+	clear: both;
+	margin-left: 300px;
+}
+.nav{
+justify-content: center;
+
+}
+.cardfooter
+{
+margin-left: 0px;
+
+}
+
+li{
+	list-style: none;
+	display: inline;
+	padding: 5px;
+}
+.button
+{
+  list-style: none;
+  /*display: inline;
+  padding: 5px;*/
+}
+a{
+	text-decoration: none;
+	display: inline;
+}
+.slide{
+	/*background-image: url(./images/background.jpg);
+	*/
+}
+.glyphicon 
+{
+  color: blue;
+  float: left;
+  display: inline;
+  height: 40px;
+}
+.father{
+  justify-content: center;
+  margin-left: 100px;
+}
+.images{
+  float: right;
+}
+
+.card-img-top
+{
+  width: 400px;
+  height: 400px;
+}
+.card-body
+{
+  width: 400px;
+  height: 400px;
+}
+/*.card-title
+{
+  width: 400px;
+}*/
+/*.card-text
+{
+  width: 400px;
+}*/
+/*.card{
+width: 18rem; 
+
+}*/
+p{
+  justify-content: right;
+}
+.side
+{
+ float:right;
+    background-color: #f76060;
+     height: 500px;
+    width: 20%;
+}
+
+/*For Search Box*/
+{
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 15%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 5%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*End Search Box*/
