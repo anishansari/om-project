@@ -76,6 +76,9 @@ a{
   width: 400px;
   height: 400px;
 }
+.card{
+  width: 18rem;
+}
 /*.card-title
 {
   width: 400px;
