@@ -2,9 +2,6 @@
 body{
 	padding: 0;
 	margin:auto 0;
-
-	/*display: flex;
-	display: grid;*/
 }
 .container{
   width: 1400px;
@@ -317,4 +314,44 @@ text-align: center;
 }
 .test{
   float: right;
+}
+.footer{
+  background: black;
+}
+/*.footertext{
+  height: 300px;
+  width: 300px;
+ 
+}*/
+.teamimg
+{
+  padding: 5px;
+ padding-bottom:5px;
+}
+.team
+{
+    float: left;
+    padding: 20px;
+
+}
+.knowus{
+  float: left;
+  margin-left: 100px;
+
+ 
+}
+.video{
+  float: left;
+  margin-left: 300px;
+   
+
+}
+.copyright{
+  background-color: #383737;
+  padding-top:3px;
+  padding-bottom:3px;
+  text-align: center;
+  color: white;
+  clear: both;
+
 }
