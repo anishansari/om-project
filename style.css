@@ -281,15 +281,26 @@ text-align: center;
 .buttonlable
 {
   background-color: #41BA98;
-  width: 250px;
+  width: 170px;
   height: 40px;
-  margin-top: 60px;
+  margin-top: 8px;
+  float: left;
+  clear: both;
 
 }
 .buttonlable1
 {
   background-color: black;
-  width: 52px;
+  width: 42px;
+  height: 40px;
+  float: right;
+  margin-top: 0px;
+
+}
+.buttonlable2
+{
+  background-color: black;
+  width: 42px;
   height: 40px;
   float: right;
 }
@@ -303,4 +314,7 @@ text-align: center;
 {
   margin-left: 25px;
   margin-top: 10px;
+}
+.test{
+  float: right;
 }
